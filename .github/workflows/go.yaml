@@ -20,5 +20,6 @@ jobs:
           make ci-test-unit
 
       - name: Test Summary
+        if: '!cancelled()'
         uses: robherley/go-test-action@v0.1.0
       
