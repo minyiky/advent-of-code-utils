@@ -18,12 +18,6 @@ jobs:
       # Install gotestfmt on the VM running the action.
       - name: Set up gotestfmt
         uses: GoTestTools/gotestfmt-action@v2
-        with:
-          # Optional: pass the gotestfmt version you want to run. 
-          version: v2.0.0
-          # Optional: pass an organization name and repo to use a fork
-          org: GoTestTools
-          repo: gotestfmt
 
       - name: Run Tests
         run: |
