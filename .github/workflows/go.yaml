@@ -28,7 +28,7 @@ jobs:
       - name: Run Tests
         run: |
           set -euo pipefail
-          make ci-test-unit 2>&1 | gotestfmt
+          make ci-test-unit | gotestfmt
 
       - name: Test Summary
         if: '!cancelled()'
