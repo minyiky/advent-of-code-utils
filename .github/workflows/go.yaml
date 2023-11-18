@@ -19,5 +19,6 @@ jobs:
         run: |
           make ci-test-unit
 
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v3
+      - name: Test Summary
+        uses: robherley/go-test-action@v0.1.0
+      

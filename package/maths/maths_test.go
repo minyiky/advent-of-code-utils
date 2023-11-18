@@ -11,7 +11,7 @@ import (
 func Test_Abs(t *testing.T) {
 	// -- Assemble --
 	in := -4.5
-	expected := 4.5
+	expected := -4.5
 
 	// -- Act --
 	actual := maths.Abs(in)
