@@ -1,0 +1,26 @@
+mode: set
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:6.59,7.11 1 1
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:10.2,10.10 1 1
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:7.11,9.3 1 1
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:14.62,15.17 1 0
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:18.2,19.22 2 0
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:24.2,24.12 1 0
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:15.17,17.3 1 0
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:19.22,20.14 1 0
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:20.14,22.4 1 0
+github.com/minyiky/advent-of-code-utils/package/container/map.go:3.54,5.22 2 1
+github.com/minyiky/advent-of-code-utils/package/container/map.go:8.2,8.10 1 1
+github.com/minyiky/advent-of-code-utils/package/container/map.go:5.22,7.3 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:10.37,11.54 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:11.54,13.3 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:18.65,19.28 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:24.2,24.17 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:19.28,20.18 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:20.18,22.4 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:28.60,29.21 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:32.2,33.28 2 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:38.2,38.17 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:29.21,31.3 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:33.28,34.16 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:34.16,36.4 1 1
+github.com/minyiky/advent-of-code-utils/package/container/slice.go:41.38,45.2 3 1
