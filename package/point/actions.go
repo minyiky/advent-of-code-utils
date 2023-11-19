@@ -10,12 +10,10 @@ func Add[T Point](p1, p2 T) T {
 		result[i] = v + p2Values[i]
 	}
 
-	var newPoint T
-
 	//nolint:errcheck // This shouldn't fail due to generics
-	_ = newPoint.SetValues(result)
+	newPoint, _ := New(result[:])
 
-	return newPoint
+	return newPoint.(T)
 }
 
 func Subtract[T Point](p1, p2 T) T {
@@ -28,10 +26,8 @@ func Subtract[T Point](p1, p2 T) T {
 		result[i] = v - p2Values[i]
 	}
 
-	var newPoint T
-
 	//nolint:errcheck // This shouldn't fail due to generics
-	_ = newPoint.SetValues(result)
+	newPoint, _ := New(result[:])
 
-	return newPoint
+	return newPoint.(T)
 }
