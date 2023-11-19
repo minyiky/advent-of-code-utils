@@ -34,6 +34,6 @@ func (p Point3D) Z() int {
 	return p.values[2]
 }
 
-func (p *Point3D) SetXZ(z int) {
+func (p *Point3D) SetZ(z int) {
 	p.values[2] = z
 }
