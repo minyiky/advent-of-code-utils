@@ -3,7 +3,7 @@ package point_test
 import (
 	"testing"
 
-	"github.com/minyiky/advent-of-code-utils/package/point"
+	"github.com/minyiky/advent-of-code-utils/pkg/point"
 	"github.com/stretchr/testify/assert"
 )
 

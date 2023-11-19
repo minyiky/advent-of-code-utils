@@ -3,7 +3,7 @@ package container_test
 import (
 	"testing"
 
-	"github.com/minyiky/advent-of-code-utils/package/container"
+	"github.com/minyiky/advent-of-code-utils/pkg/container"
 	"github.com/stretchr/testify/assert"
 )
 

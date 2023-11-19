@@ -18,6 +18,14 @@ func (p *Point2D) X() int {
 	return p.values[0]
 }
 
+func (p *Point2D) SetX(x int) {
+	p.values[0] = x
+}
+
 func (p *Point2D) Y() int {
 	return p.values[1]
+}
+
+func (p *Point2D) SetY(y int) {
+	p.values[1] = y
 }

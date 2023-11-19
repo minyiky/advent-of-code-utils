@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/minyiky/advent-of-code-utils/package/container"
+	"github.com/minyiky/advent-of-code-utils/pkg/container"
 )
 
 func Test_ReverseSlice(t *testing.T) {

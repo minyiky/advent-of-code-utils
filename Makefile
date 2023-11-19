@@ -1,3 +1,5 @@
+VERSION=0.2.0
+
 test-unit:
 	go test --coverprofile=cover.out --count=1 ./package/...
 

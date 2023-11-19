@@ -3,7 +3,7 @@ package point
 import (
 	"math"
 
-	"github.com/minyiky/advent-of-code-utils/package/maths"
+	"github.com/minyiky/advent-of-code-utils/pkg/maths"
 )
 
 func ManhattanDistance[T Point](p1, p2 T) int {
