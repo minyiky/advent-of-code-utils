@@ -24,4 +24,7 @@ jobs:
         run: |
           set -euo pipefail
           make ci-test-unit | gotestfmt
-      
+
+      # Upload coverage reports to Codecov
+      - name: Codecov
+        uses: codecov/codecov-action@v3
