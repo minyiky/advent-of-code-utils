@@ -1,0 +1,30 @@
+name: Go
+
+on: [pull_request]
+
+jobs:
+  Unit_Test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Go 1.21
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.21
+
+      # Install gotestfmt on the VM running the action.
+      - name: Set up gotestfmt
+        uses: GoTestTools/gotestfmt-action@v2
+
+      # Run the unit tests and pipr the output to gotestfmt
+      - name: Run Tests
+        run: |
+          set -euo pipefail
+          make ci-test-unit | gotestfmt
+
+      # Upload coverage reports to Codecov
+      - name: Codecov
+        uses: codecov/codecov-action@v3
