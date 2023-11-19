@@ -19,12 +19,9 @@ jobs:
       - name: Set up gotestfmt
         uses: GoTestTools/gotestfmt-action@v2
 
+      # Run the unit tests and pipr the output to gotestfmt
       - name: Run Tests
         run: |
           set -euo pipefail
           make ci-test-unit | gotestfmt
-
-      - name: Test Summary
-        if: '!cancelled()'
-        uses: robherley/go-test-action@v0.1.0
       

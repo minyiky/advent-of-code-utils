@@ -2,11 +2,11 @@ mode: set
 github.com/minyiky/advent-of-code-utils/package/maths/maths.go:6.59,7.11 1 1
 github.com/minyiky/advent-of-code-utils/package/maths/maths.go:10.2,10.10 1 1
 github.com/minyiky/advent-of-code-utils/package/maths/maths.go:7.11,9.3 1 1
-github.com/minyiky/advent-of-code-utils/package/maths/maths.go:14.62,15.17 1 0
-github.com/minyiky/advent-of-code-utils/package/maths/maths.go:18.2,19.22 2 0
-github.com/minyiky/advent-of-code-utils/package/maths/maths.go:24.2,24.12 1 0
-github.com/minyiky/advent-of-code-utils/package/maths/maths.go:15.17,17.3 1 0
-github.com/minyiky/advent-of-code-utils/package/maths/maths.go:19.22,20.14 1 0
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:14.62,15.17 1 1
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:18.2,19.22 2 1
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:24.2,24.12 1 1
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:15.17,17.3 1 1
+github.com/minyiky/advent-of-code-utils/package/maths/maths.go:19.22,20.14 1 1
 github.com/minyiky/advent-of-code-utils/package/maths/maths.go:20.14,22.4 1 0
 github.com/minyiky/advent-of-code-utils/package/container/map.go:3.54,5.22 2 1
 github.com/minyiky/advent-of-code-utils/package/container/map.go:8.2,8.10 1 1
