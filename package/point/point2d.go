@@ -14,14 +14,6 @@ func (p *Point2D) Values() []int {
 	return p.values[:]
 }
 
-func (p *Point2D) SetValues(values []int) error {
-	if len(values) != 2 {
-		return ErrInvalidPoint
-	}
-	p.values = [2]int{values[0], values[1]}
-	return nil
-}
-
 func (p *Point2D) X() int {
 	return p.values[0]
 }
