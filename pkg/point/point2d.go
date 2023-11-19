@@ -26,6 +26,6 @@ func (p Point2D) Y() int {
 	return p.values[1]
 }
 
-func (p Point2D) SetY(y int) {
+func (p *Point2D) SetY(y int) {
 	p.values[1] = y
 }
