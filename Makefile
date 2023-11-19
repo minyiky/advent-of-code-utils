@@ -1,4 +1,10 @@
-VERSION=0.2.0
+VERSION=0.3.0
+
+version:
+	@echo "v${VERSION}"
+
+tag:
+	git tag "v${VERSION}"
 
 test-unit:
 	go test --coverprofile=cover.out --count=1 ./pkg/...
