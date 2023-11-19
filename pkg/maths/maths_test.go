@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/minyiky/advent-of-code-utils/package/maths"
+	"github.com/minyiky/advent-of-code-utils/pkg/maths"
 )
 
 func Test_Abs(t *testing.T) {

@@ -1,6 +1,6 @@
 package point_test
 
-import "github.com/minyiky/advent-of-code-utils/package/point"
+import "github.com/minyiky/advent-of-code-utils/pkg/point"
 
 var (
 	point2DOne = point.NewPoint2D(1, 1)
